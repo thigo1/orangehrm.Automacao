@@ -29,33 +29,11 @@ Planejo algumas melhorias para o projeto, incluindo:
 
 ## Como Executar o Projeto
 ### Pré-requisitos
-Antes de começar, certifique-se de ter instalado:
-+ [Node.js](https://nodejs.org/pt)
-  
+
 **Observação:** Caso você não tenha um navegador instalado, o Cypress utilizará o Electron por padrão para executar os testes.
 
 ### Passos para Instalação
 
 1. **Clone o repositório** para sua máquina local:
-```
-git clone https://github.com/seu_usuario/orangehrm-automation-suite.git
-```
-2. **Acesse o diretório do projeto.** O diretório pode ser escolhido de acordo com o local onde você clonou o repositório:
-```
-cd caminho/para/o/diretorio/orangehrm-automation-suite
-```
-3. **Instale as dependências** do projeto:
-```
-npm install
-```
-4. **Execute o Cypress** para rodar os testes:
-   
-Para abrir o Cypress com a interface gráfica:
-   
-```
-npx cypress open
-```
-Ou, para rodar os testes em modo headless (sem interface gráfica):
-```
-npx cypress run
+
 ```
